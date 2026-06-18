@@ -77,10 +77,6 @@ AD_USE_SSL=False
 
 Any values found in `.env` are loaded automatically at startup and the corresponding prompts are skipped.
 
-> ⚠️ **Never commit your `.env` file to version control.** Add `.env` to your `.gitignore`:
-> ```
-> echo ".env" >> .gitignore
-> ```
 
 You can also override the output filename (default is `ad_network_map.json`):
 
